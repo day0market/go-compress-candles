@@ -98,7 +98,7 @@ func updateCandleEnrichedPrices(cs *CandleSimple, ce *CandleEnriched) {
 
 func updateCandleEnrichedHourPrices(candle *CandleSimple, lastCandle *CandleEnriched) {
 	hour := candle.DateTime.Hour()
-	if hour > 15 {
+	if hour > 15 || hour < 9 {
 		return
 	}
 

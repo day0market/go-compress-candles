@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-const SOURCE_FOLDER = "D:\\MarketData\\~TEST\\source"
-const DEST_FOLDER = "D:\\MarketData\\~TEST\\dest"
+const SOURCE_FOLDER = "D:\\MarketData\\US\\Candles\\1Min"
+const DEST_FOLDER = "D:\\MarketData\\US\\EnrichedDays"
 const FILE_MASK = ".txt"
 
 func main() {
